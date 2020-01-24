@@ -1,0 +1,39 @@
+body { 
+    font-family: 'Montserrat', sans-serif;
+}
+
+#product-overview {
+    background: #ff1b68;
+}
+
+.section-title { 
+    color: #2ddf5c;
+}
+
+#product-overview h1 {
+    color: white; 
+    font-family: 'Anton', sans-serif;
+}
+
+
+
+
+/* 
+Combinators- 
+    1. Adjacent Sibling ex: h2 + p {} 
+        Directly apply to all p that follow the h2 tag 
+        ** Elements have to share the same parent
+        ** Second element comes immediately after 
+    2. General Sibling ex: h2 ~ p {} 
+        ALL paragraphs get the color even if it's not h2
+        ** same parent 
+    3. Child ex: div > p {} 
+        Only applies to the direct child of the div 
+        ** Second element is a direct child of the first element
+    4. Decendent ex: div p {}
+        Level doesn't matter... all p get the style applied 
+        ** Second element is a decendent of the first element 
+        
+    ** Combinators increase performance of the app 
+
+*/ 
